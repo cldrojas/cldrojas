@@ -1,0 +1,1 @@
+console.log('que pex', Math.random(7));
