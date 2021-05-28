@@ -6,7 +6,6 @@ To create a new project based on this template
 
 ```bash
 git clone https://gitlab.com/cld_rojas/svelte-starter svelte-app
-cd svelte-app
 ```
 
 Note that you will need to have [node](https://nodejs.org/) installed.
@@ -17,7 +16,7 @@ Note that you will need to have [node](https://nodejs.org/) installed.
 Install the dependencies....
 
 ```bash
-cd svelte-starter
+cd svelte-app
 npm install
 ```
 
