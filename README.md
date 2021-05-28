@@ -5,7 +5,7 @@ Svelte starter is the easiest way to initialize an [svelte](https://svelte.dev/)
 To create a new project based on this template
 
 ```bash
-clone this repo
+git clone https://gitlab.com/cld_rojas/svelte-starter svelte-app
 cd svelte-app
 ```
 
