@@ -1,6 +1,6 @@
 # Svelte starter
 
-Svelte starter is the easiest way to initialize an [svelte](https://svelte.dev/) project, including webpack, miniCss and babel.
+Svelte starter is an [svelte](https://svelte.dev/) template that includes WebPack, miniCss and babel-loader.
 
 To create a new project based on this template
 
