@@ -1,18 +1,21 @@
 <script>
-  let name = "World";
+  import Hero from "./components/Hero.svelte";
 </script>
 
 <div class="App">
   <div class="App-content">
-    <h1>Hello {name}!</h1>
+    <Hero />
   </div>
 </div>
 
 <style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
   .App {
-    text-align: center;
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    overflow: hidden;
   }
-  h1 {
-    color: tomato;
+  .App-content {
+    margin: 0 auto;
   }
 </style>

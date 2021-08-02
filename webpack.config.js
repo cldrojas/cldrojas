@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const Dotenv = require("dotenv-webpack");
 
@@ -33,7 +34,7 @@ module.exports = {
             },
             //Allows use of CSS
             {
-                test: /\.css$/,
+                test: /\.(css|scss)$/,
                 use: [MiniCssExtractPlugin.loader, "css-loader"],
             },
             //Allows use of images
@@ -51,6 +52,12 @@ module.exports = {
         //Allows to create an index.html in our build folder
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, "public/index.html"),
+        }),
+        new CopyPlugin({
+            patterns: [{
+                from: "./public/img",
+                to: "img",
+            }, ],
         }),
         //This gets all our css and put in a unique file
         new MiniCssExtractPlugin(),
