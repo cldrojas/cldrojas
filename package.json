@@ -1,4 +1,36 @@
 {
+<<<<<<< HEAD
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server ./dist/ --cors -o -c-1 --proxy",
+        "build": "webpack --mode production",
+        "dev": "webpack serve --open"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.14.3",
+        "@babel/polyfill": "^7.12.1",
+        "@babel/preset-env": "^7.14.2",
+        "babel-loader": "^8.2.2",
+        "copy-webpack-plugin": "^9.0.1",
+        "css-loader": "^5.2.6",
+        "dotenv-webpack": "^7.0.2",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.3.1",
+        "mini-css-extract-plugin": "^1.6.0",
+        "svelte-loader": "^3.1.1",
+        "webpack": "^5.38.1",
+        "webpack-cli": "^4.7.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "dependencies": {
+        "svelte": "^3.38.2"
+=======
     "name": "vitae",
     "version": "1.0.0",
     "description": "Curriculum Vitae Daniel Rojas",
@@ -31,5 +63,6 @@
     },
     "dependencies": {
         "copy-webpack-plugin": "^8.1.1"
+>>>>>>> 9e8d0db0bd5b8e7886cfbfb2838dc63d68dfb9a7
     }
 }
