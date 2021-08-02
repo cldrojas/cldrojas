@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "scripts": {        
+    "scripts": {
         "build": "webpack --mode production",
         "dev": "webpack serve --mode development --open"
     },
@@ -21,6 +21,7 @@
         "file-loader": "^6.2.0",
         "html-webpack-plugin": "^5.3.1",
         "mini-css-extract-plugin": "^1.6.0",
+        "svelte": "^3.41.0",
         "svelte-loader": "^3.1.1",
         "webpack": "^5.38.1",
         "webpack-cli": "^4.7.0",
