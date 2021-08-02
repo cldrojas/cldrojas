@@ -1,9 +1,0 @@
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90px;
-    width: 90px;
-    background-color: var(--white);
-    border-radius: 50%;
-}
