@@ -1,0 +1,14 @@
+:root {
+    --dark-background: #12203e;
+    --white: #fff8dc;
+    --morado: #8c30f5;
+    --morado-dark: #6426ac;
+    --morado-darker: #310244;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-background);
+    color: var(--white);
+}
