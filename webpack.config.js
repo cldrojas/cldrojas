@@ -3,7 +3,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-
 module.exports = {
     // This says to webpack that we are in development mode and write the code in webpack file in different way
     mode: "development",
@@ -13,7 +12,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "index.js",
-        publicPath: "/",
+        publicPath: "/cldrojas",
     },
     module: {
         rules: [
