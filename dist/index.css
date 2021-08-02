@@ -1,0 +1,47 @@
+/* import css components 
+
+@import "./title.css";
+@import "./logo.css";
+
+ variables definition */
+
+:root {
+    --fontBase: "Zen Dots", cursive;
+    --headline1: regular 95px/150px var(--fontBase);
+    --headline2: bold 60px/95px var(--fontBase);
+    --headline3: bold 35px/70px var(--fontBase);
+    --white: #dddcdc;
+    --teal: #1c9b90;
+    --background: #152e2c;
+}
+
+body {
+    font-family: var(--headline1);
+    background-color: var(--background);
+    color: var(--white);
+    min-block-size: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    display: flexbox;
+    align-items: center;
+}
+
+.title {
+    color: var(--teal);
+    font-family: var(--headline1);
+    font-weight: bold;
+}
+
+.logo {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: var(--teal);
+    border-radius: 50%;
+}
