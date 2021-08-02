@@ -84,12 +84,13 @@
     font-size: 24px;
   }
   .Hero-title p {
+    text-align: justify;
     font-family: Poppins;
     font-style: normal;
     font-weight: 900;
     font-size: 22px;
     line-height: 33px;
-    max-width: 550px;
+    max-width: 477px;
   }
   @keyframes type {
     from {
