@@ -2,7 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const Dotenv = require("dotenv-webpack");
+
 
 module.exports = {
     // This says to webpack that we are in development mode and write the code in webpack file in different way
@@ -63,7 +63,6 @@ module.exports = {
         new MiniCssExtractPlugin(),
         //take our environment variable in .env file
         //And it does a text replace in the resulting bundle for any instances of process.env.
-        new Dotenv(),
     ],
     ////Config for webpack-dev-server module
     devServer: {
