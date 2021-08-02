@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "name": "portfolio",
     "version": "1.0.0",
     "description": "",
@@ -30,39 +29,5 @@
     },
     "dependencies": {
         "svelte": "^3.38.2"
-=======
-    "name": "vitae",
-    "version": "1.0.0",
-    "description": "Curriculum Vitae Daniel Rojas",
-    "main": "index.js",
-    "scripts": {
-        "start": "webpack serve --open --mode development",
-        "build": "webpack --mode production"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/cldrojas/cldrojas.git"
-    },
-    "keywords": [
-        "curriculum",
-        "web-developer"
-    ],
-    "author": "cld_rojas",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/cldrojas/cldrojas/issues"
-    },
-    "homepage": "https://github.com/cldrojas/cldrojas#readme",
-    "devDependencies": {
-        "@babel/core": "^7.14.0",
-        "babel-loader": "^8.2.2",
-        "html-webpack-plugin": "^5.3.1",
-        "webpack": "^5.36.2",
-        "webpack-cli": "^4.6.0",
-        "webpack-dev-server": "^3.11.2"
-    },
-    "dependencies": {
-        "copy-webpack-plugin": "^8.1.1"
->>>>>>> 9e8d0db0bd5b8e7886cfbfb2838dc63d68dfb9a7
     }
 }
