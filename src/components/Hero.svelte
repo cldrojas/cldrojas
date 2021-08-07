@@ -1,11 +1,5 @@
-<script>
-  import Header from "./Header.svelte";
-</script>
-
 <div class="Hero">
   <div class="Hero-content">
-    <Header />
-    <div class="Hero-elipse" />
     <div class="Hero-image">
       <img src="./img/hero.png" alt="Daniel Rojas" />
     </div>
@@ -23,89 +17,76 @@
 </div>
 
 <style>
-  .Hero-content {
+  .Hero {
     height: 100vh;
-    overflow: hidden;
   }
-
-  .Hero-elipse {
-    position: relative;
-    z-index: -99;
-    left: 53%;
-    bottom: 34%;
-    width: 1100px;
-    height: 1100px;
-    background: linear-gradient(
-      216.39deg,
-      rgba(0, 255, 209, 0.264) 10.19%,
-      rgba(0, 107, 167, 0) 110.61%
-    );
-    border-radius: 550px;
-    -moz-border-radius: 550px;
-    -webkit-border-radius: 550px;
-  }
-
   .Hero-image {
+    display: flex;
+    position: relative;
     width: 550px;
     height: 550px;
-    position: absolute;
-    display: flex;
-    right: 0;
-    bottom: 0;
+    float: right;
+    top: 27px;
+    animation: 2s ease-in-out 0s 1 rightFadeIn;
   }
 
   .Hero-title {
-    position: absolute;
-    z-index: 1;
-    top: 15%;
-    left: 10%;
-    margin: 10px;
-    font-size: 30px;
-    text-align: left;
     display: block;
-    justify-content: left;
     width: 45%;
     height: 35%;
+    margin: 10px;
     padding: 10px;
+    position: relative;
+    top: 15%;
+    left: 10%;
+    font-size: 30px;
+    text-align: left;
+    justify-content: left;
+    animation: 2s ease-in-out 1 topFadeIn;
   }
 
-  .Hero-title h1 {
-    color: #00dede;
-    margin: 0;
-    height: 20px;
-  }
   .Hero-title h3 {
     height: 0;
     font-size: 30px;
   }
+  .Hero-title h1 {
+    height: 20px;
+    margin: 0;
+    color: #00dede;
+  }
   .Hero-title h4 {
     margin-top: 50px;
-    font-weight: 700;
     font-size: 24px;
+    font-weight: 700;
   }
   .Hero-title p {
-    text-align: justify;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 22px;
-    line-height: 33px;
     max-width: 477px;
-  }
-  @keyframes type {
-    from {
-      width: 0;
-    }
+    line-height: 33px;
+    text-align: justify;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: normal;
   }
 
-  @keyframes show {
+  @keyframes topFadeIn {
     0% {
       opacity: 0;
-      left: 100px;
+      transform: translateY(-20px);
     }
-
     100% {
-      left: 0px;
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes rightFadeIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
     }
   }
 </style>

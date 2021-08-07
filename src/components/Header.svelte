@@ -3,10 +3,10 @@
     <div class="Header-menu">
       <nav>
         <ul class="navigation">
-          <li><a href="#About">Home</a></li>
-          <li><a href="#Skills">Skills</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a href="/#/">Home</a></li>
+          <li><a href="/#/skills">Skills</a></li>
+          <li><a href="/#/projects">Projects</a></li>
+          <li><a href="/#/contact">Contact</a></li>
         </ul>
       </nav>
       <nav>
@@ -16,7 +16,11 @@
               ><img src="./img/github.svg" alt="github" /></a
             >
           </li>
-          <li><img src="./img/twitter.svg" alt="twitter" /></li>
+          <li>
+            <a href="https://twitter.com/cld_rojas"
+              ><img src="./img/twitter.svg" alt="twitter" /></a
+            >
+          </li>
           <li><img src="./img/discord.svg" alt="discord" /></li>
         </ul>
       </nav>
@@ -25,6 +29,11 @@
 </div>
 
 <style>
+  .Header {
+    position: relative;
+    top: -10px;
+    z-index: 10;
+  }
   .Header-menu {
     background-color: transparent;
     display: flex;
