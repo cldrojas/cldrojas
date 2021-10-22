@@ -1,30 +1,6 @@
-# Svelte starter
-
-Svelte starter is an [svelte](https://svelte.dev/) template that includes WebPack, miniCss and babel-loader.
-
-To create a new project based on this template
-
-```bash
-git clone https://gitlab.com/cld_rojas/svelte-starter svelte-app
-```
-
-Note that you will need to have [node](https://nodejs.org/) installed.
-
-## Get Started
-
-
-Install the dependencies....
-
-```bash
-cd svelte-app
-npm install
-```
-
-...then start webpack:
-```bash
-npm run dev
-```
-Navigate to localhost:8080. You should see your app running. Edit a component file in `src`, save it, and the page should reload with your changes.
-
-## License
-[ISC](https://choosealicense.com/licenses/isc/)
+# Hi, I'm Daniel 👋
+  I have a degree in Computer Engineering from the Technological University of Chile INACAP, I have taken courses on productivity and effective time management among others  in the online education platform Platzi.
+  
+  For the final project that I presented, and with which I defended my thesis, I was responsible for coding from start to finish a mobile application in flutter interacting with firebase to display data in real time. I managed to learn on my own what I needed to develop both the mobile application and an interface for the end user using the Arduino esp32 microcontroller. 
+  
+  ## I am currently focused on web development, i'm making an application focused on helping chronic patients to keep track of their medical conditions.
