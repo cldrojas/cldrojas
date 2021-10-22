@@ -1,6 +1,10 @@
-# Hi, I'm Daniel 👋
-  I have a degree in Computer Engineering from the Technological University of Chile INACAP, I have taken courses on productivity and effective time management among others  in the online education platform Platzi.
-  
-  For the final project that I presented, and with which I defended my thesis, I was responsible for coding from start to finish a mobile application in flutter interacting with firebase to display data in real time. I managed to learn on my own what I needed to develop both the mobile application and an interface for the end user using the Arduino esp32 microcontroller. 
-  
-  ## I am currently focused on web development, i'm making an application focused on helping chronic patients to keep track of their medical conditions.
+[![linkedin badge](https://img.shields.io/badge/cldrojas-30302f?style=flat&logo=linkedin)](https://www.linkedin.com/in/cldrojas/)
+[![twitter badge](https://img.shields.io/badge/@cld_rojas-30302f?style=flat&logo=twitter)](https://twitter.com/cld_rojas)
+
+
+Hi there, I'm Daniel 👋
+- 👨‍💻 I’m currently working on Svelte projects
+- 🐱‍👤 I’m learning about NestJs and REST API's
+- ⛑ I’m looking to collaborate on web Projects
+- 💬 Ask me about anything
+- 📫 How to reach me: Twitter - @cld_rojas
