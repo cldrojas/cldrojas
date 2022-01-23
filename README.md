@@ -3,8 +3,7 @@
 
 
 Hi there, I'm Daniel 👋
-- 👨‍💻 I’m currently working on Svelte projects
-- 🐱‍👤 I’m learning about React, NestJs and REST API's
+- 👨‍💻 I’m currently working on React projects
+- 🐱‍👤 I’m learning about REST API's
 - ⛑ I’m looking to collaborate on web Projects
 - 💬 Ask me about anything
-- 📫 How to reach me: Twitter - @cld_rojas
